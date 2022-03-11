@@ -7,5 +7,5 @@ spring:
     name: adminService
   cloud:
     nacos:
-      server-addr: 192.168.147.130:8848
-#      server-addr: 192.168.43.71:8848
+#      server-addr: 192.168.147.130:8848
+      server-addr: 192.168.43.71:8848

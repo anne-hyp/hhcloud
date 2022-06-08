@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableFeignClients(basePackages = "cn.hehe.base.hhcloud.common")
+@EnableFeignClients(basePackages = "cn.hehe.base.hhcloud")
 public class AuthApplication {
 
     public static void main(String[] args) {

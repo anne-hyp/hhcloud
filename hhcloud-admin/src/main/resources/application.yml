@@ -2,10 +2,16 @@ server:
   port: 10030
   servlet:
     context-path: /admin
-spring:
-  application:
-    name: adminService
-  cloud:
-    nacos:
+#spring:
+#  application:
+#    name: adminService
+#  cloud:
+#    nacos:
 #      server-addr: 192.168.147.130:8848
-      server-addr: 192.168.43.71:8848
+#      server-addr: 192.168.43.71:8848
+spring:
+  datasource:
+    username: root
+    password: ds123456
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
